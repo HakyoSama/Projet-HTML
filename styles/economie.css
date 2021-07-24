@@ -1,0 +1,75 @@
+body{background-image:url(../media/gris.jpg);}
+body{text-align:center;
+	background-image:url(../media/gris.jpg);}
+#div1{float:left;
+	height:6.5cm;width:5cm;
+	background-color: #ECEBEB;
+	border-style: solid;
+	margin-left:1cm;
+	color: maroon;
+	font-family: Comic SANS Ms;}
+#div2{height: 67cm;width:24cm;
+	background-color: #ECEBEB;
+	border-style: solid;
+	margin-left:7cm;}
+p{margin-right:3cm;
+	margin-left:3cm;
+	text-align:justify;
+	font-size: 14pt;}
+
+#contenu{background-color:grey;
+		 text-align:left;
+		 width:900px;
+		 height:2300px;
+		 padding-top:50px;
+		 float:right;}
+#u2{font-size: 0.5cm;}
+img{float:left;}
+.ahref{	color:black;
+		background-color:white;
+		width:10em;
+		font-size:15pt;
+		text-decoration:underline;
+		}
+button{margin-left:10em;}
+h1{text-align:center;
+	font-size:1cm;
+	color: maroon;
+	font-family: Trebuchet MS;}
+h2{text-align: center;
+	text-decoration:underline;
+	color: maroon;
+	font-family: Comic SANS Ms;}
+h3{text-align: center;}
+table{border-color:grey;
+	border-style:groove;
+	background-color:gainsboro}
+th{width:400px;
+	border-color:grey;
+	border-style:outset;
+	font-family: Comic SANS MS;
+	font-size: 20px;}
+
+td{font-size:15px;
+	border-style:outset;}
+.button{height:2em;
+		width:10em;
+		font-size: 12pt;
+		margin-left:10em;}
+.ahref{color: black;
+		background-color: gainsboro;
+       font-size: 12pt;}
+#p{font-size: 20pt;
+	margin-left: 10em;
+	font-weight: bolder;
+	text-decoration: underline;}
+#p1{text-align: center;
+		margin-left: 18em;
+		}
+a:visited {
+	color: red;
+	text-decoration: line-through;}
+a:hover {
+	color: green;
+	font-size: 20px;}
+	

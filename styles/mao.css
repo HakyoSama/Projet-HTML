@@ -1,0 +1,60 @@
+body{background-image:url(../media/gris.jpg);}
+#div1{float:left;
+	height:5.9cm;width:5cm;
+	background-color: #ECEBEB;
+	border-style: solid;
+	margin-left:1cm;
+	color: maroon;
+	font-family: Comic SANS Ms;}
+#div2{height: 70cm;width:24cm;
+	background-color: #ECEBEB;
+	border-style: solid;
+	margin-left:7cm;}
+h1{text-align:center;
+	font-size:1cm;
+	color: #B8B7B7;
+	font-family: Trebuchet MS;}
+#u2{font-size:0.5cm;
+	color :#B8B7B7}
+p{margin-right:3cm;
+	margin-left:3cm;
+	text-align:justify;
+	font-size: 14pt;}
+img{border-color:black;
+	border-style:solid;
+	float:left;}
+h2{margin-left:8cm;
+	text-decoration:underline;
+	color: maroon;
+	font-family: Comic SANS Ms;}
+#table1{border-style:ridge;
+		background-color:gainsboro;
+		font-size: 14pt;}
+.td1{border-style:outset;}
+h4{margin-left: 4cm;}
+#table2{border-collapse:collapse;
+		margin-left:9cm;}
+.td2{text-align:center;}	
+#u1{margin-right:3cm;
+	margin-left:3cm;
+	text-align:justify;
+	font-size: 14pt;}
+.button{height:2em;
+		width:10em;
+		font-size: 12pt;
+		margin-left:10em;}
+.ahref{color: black;
+		background-color: gainsboro;
+       font-size: 12pt;}
+#p{font-size: 20pt;
+	margin-left: 10em;
+	font-weight: bolder;
+	text-decoration: underline;}
+#relatif{position: relative;
+			right: 5em;}
+a:visited {
+	color: red;
+	text-decoration: line-through;}
+a:hover {
+	color: green;
+	font-size: 20px;}

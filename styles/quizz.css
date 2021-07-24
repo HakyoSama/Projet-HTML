@@ -1,0 +1,39 @@
+fieldset{width:50em;
+		border-color:#ECEBEB;}
+body{background-image:url(../media/gris.jpg);}
+p{color:white;
+	font-size:20pt;
+	text-align:center;}
+legend{color:#A2A1A1;
+		font-size:20pt;}
+.reponse{color:white;
+		font-size:15pt;}
+button{color:#A2A1A1;
+		background-color:beige;
+		width:10em;
+		font-size:15pt;
+		margin-left:10em;}
+form{margin-left:15em;
+}
+#valider{font-size:30pt;
+		color:white;}
+#commentaire{background-color:beige;}
+.button{color: black;
+			background-color:whitesmoke;
+			height: 2cm;
+			width: 5cm;
+			font-size: 16pt;}
+.button2{color: black;
+			background-color:grey;;
+			height: 2cm;
+			width: 5cm;
+			font-size: 16pt;
+			border-style: dotted;}
+.button3{color: black;
+			background-color:grey;;
+			height: 2cm;
+			width: 5cm;
+			font-size: 16pt;
+			border-style: dotted;
+			margin-left: 10px;}
+#p{text-align:justify;}

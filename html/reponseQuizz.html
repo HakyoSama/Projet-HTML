@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" type="text/css" href="../styles/quizz.css" />
+	<title>Reponses</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+	<meta name="subject" content="Chine"/>
+	<meta name="keywords" content="Mao"/>
+	<meta name="author" lang="fr" content="Camille DARDOIZE, Lucas MATHIRON"/>
+	<script src="../javascript/message.js">
+	</script>
+</head>
+ <body onload="message()" >
+ <p>Voici les r&eacute;ponses</p>
+	
+	<form method="post" action="mailto:camillelucastoto123@laposte.net" >
+		<fieldset>	
+			<fieldset>
+				<legend>A quelle date fut proclamée la RPC ?</legend><br/>
+				<p><span class="reponse">1 Octobre 1949</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Où se sont réfugiés les nationalistes ?</legend><br/>
+				<p><span class="reponse">Taïwan</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Qui est le successeur de Mao Zedong ?</legend><br/>
+				<p><span class="reponse">Deng Xiaoping</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Parmis ces trois propositions, quelle est l'hymne de la Chine ?</legend><br/>
+				<p><span class="reponse">La première !</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Quel est l'actuel dirigeant de la Chine ? </legend><br/>		
+				<p><span class="reponse">Xi Jinping</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Dans quelle ville de Chine se sont déroulés les Jeux Olympiques en 2008 ?</legend><br/>
+				<p><span class="reponse">Beijing</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Quelles sont les 4 modernisations mises en place par Deng Xiaoping ?</legend><br/>
+				<p><span class="reponse">la modernisation de l’agriculture, de l’industrie, des sciences et de la défense nationale</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>En 1945, quel pays reconnaît la RPC ?</legend><br/>
+				<p><span class="reponse">URSS</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>Quelle est la date du grand bond en avant de Mao ?</legend><br/>
+				<p><span class="reponse">1958</span></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+				<legend>En quelle année la RPC obtient la bombe nucléaire ?</legend><br/>
+				<p><span class="reponse">1964</span></p>
+			</fieldset>
+		</fieldset>
+	</form>
+ 
+ 
+ 
+<form  method="post" action="mailto:toto@wanadoo.fr" enctype="text/plain"  onsubmit="return verif(this)" >
+ <p id="p">
+ 		Pour pouvoir r&eacute;pondre &agrave; vos commentaire veuillez remplir le document suivant:<br/> 
+ 		Nom:      <input type="text" size="20" name="nom" required="required" onblur="verifNom(this)"/><br/>
+ 		Pr&eacute;nom:  <input type="text" size="20" name="prenom" required="required" onblur="verifPrenom(this)"/><br/>
+ 		Mot de passe: <input type="password" size="20" name="pass" required="required" onblur="verifPass(this)"/><br/>
+ 		E-Mail:   <input type="email" size="20" name="email" required="required"/><br/>
+ 		Age:      <input type="number" min="0" max="120" size="20" name="age" required="required"/><br/>
+ 		Num&eacute;ro de t&eacute;l&eacute;phone: <input type="tel" size="20" name="tel" required="required"/><br/>
+ 		Des images de la Chine ? <input type="file" size="20" name="img"/><br/>
+ 		Choix de la couleur : <input type="color" size="20" name="couleur"/><br/>
+ 		Pays d'Europe : <select name="pays" >
+ 								<option value="France">France</option>
+ 								<option value="BG">Angleterre</option>
+ 								<option value="Espagne">Espagne</option>
+ 								<option value="Italie">Italie</option>
+ 								<option value="Belgique">Belgique</option>
+ 								<option value="Grece">Gr&egrave;ce</option>
+ 								<option value="Luxembourg">Luxembourg</option>
+ 								<option value="Suisse">Suisse</option>
+								<option value="Ecosse">Ecosse</option>
+								<option value="Autre">Autre</option>
+ 							</select><br/>
+
+ <input type="submit" value="envoyer" class="button2"><input type="reset" value="effacer" class="button3">
+ </p>
+ </form>
+ <script src="../javascript/quizz.js">
+</script>
+ </body>
+ </html>
